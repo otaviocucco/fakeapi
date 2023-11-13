@@ -3,6 +3,8 @@
         {
             "id": "1",
             "_id": "Esse ID é do post da automarticles",
+            "externalId": "id da categoria no meu blog",
+            "_externalId": "Esse ID é do post do blog da pessoa",
             "slug": "post-criado-via-plugin-automarticles",
             "status": "publish, future, draft, pending,private",
             "title": "Post criado via plugin automarticles",
@@ -23,12 +25,18 @@
             "date": 1699551233
         }
     ],
-    "postscreate": {
-        "id": "2",
-        "_id": "retornar id do post criado na automarticles"
-    },
-    "postsupdate": {
-        "id": "2",
-        "_id": "retornar id do post criado na automarticles"
-    }
+    "categories": [
+        {
+            "id": "ID da categoria automarticles",
+            "name": "Nome da categoria",
+            "externalId": "id da categoria no meu blog",
+            "_externalId": "Esse ID é do post do blog da pessoa"
+        },
+        {
+            "id": "ID da categoria automarticles",
+            "name": "Nome da categoria",
+            "externalId": "id da categoria no meu blog",
+            "_externalId": "Esse ID é do post do blog da pessoa"
+        }
+    ]
 }
