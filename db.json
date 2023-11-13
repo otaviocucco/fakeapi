@@ -24,13 +24,14 @@
     "categories": [
         {
             "id": "1",
-            "name": "Nome da categoria",
-            "externalId": "1"
+            "externalId": "1",
+            "name": "Nome da categoria"
+            
         },
         {
             "id": "2",
-            "name": "Nome da categoria",
-            "externalId": "2"
+            "externalId": "2",
+            "name": "Nome da categoria"
         }
     ]
 }
