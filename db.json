@@ -3,7 +3,7 @@
         {
             "id": "1",
             "_id": "Esse ID é do post da automarticles",
-            "externalId": "id da categoria no meu blog",
+            "externalId": "1",
             "_externalId": "Esse ID é do post do blog da pessoa",
             "slug": "post-criado-via-plugin-automarticles",
             "status": "publish, future, draft, pending,private",
@@ -17,26 +17,28 @@
             "image": {
                 "alt": "Alt text da imagem"
             },
-            "category": "ID da categoria na automarticles",
             "categories": [
                 "1",
                 "2"
             ],
+            "_categories": "Ver como vai fazer pq na automarticles so aceita uma categoria e no wordpress aceita um monte ai fica dificil sincronizar os dois",
             "date": 1699551233
         }
     ],
     "categories": [
         {
-            "id": "ID da categoria automarticles",
+            "id": "1",
+            "_id": "ID da categoria automarticles",
             "name": "Nome da categoria",
-            "externalId": "id da categoria no meu blog",
-            "_externalId": "Esse ID é do post do blog da pessoa"
+            "externalId": "1",
+            "_externalId": "Esse ID é da categoria do blog da pessoa"
         },
         {
-            "id": "ID da categoria automarticles",
+            "id": "2",
+            "_id": "ID da categoria automarticles",
             "name": "Nome da categoria",
-            "externalId": "id da categoria no meu blog",
-            "_externalId": "Esse ID é do post do blog da pessoa"
+            "externalId": "2",
+            "_externalId": "Esse ID é da categoria do blog da pessoa"
         }
     ]
 }
