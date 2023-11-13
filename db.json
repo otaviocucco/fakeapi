@@ -2,9 +2,7 @@
     "posts": [
         {
             "id": "1",
-            "_id": "Esse ID é do post da automarticles",
             "externalId": "1",
-            "_externalId": "Esse ID é do post do blog da pessoa",
             "slug": "post-criado-via-plugin-automarticles",
             "status": "publish, future, draft, pending,private",
             "title": "Post criado via plugin automarticles",
@@ -13,7 +11,6 @@
                 "html": "<h1>Essa postagem foi feita automatica</h1>"
             },
             "excerpt": "Essa postagem foi...",
-            "_excerpt": "Verificar se não é melhor não ter isso, e se tiver não é melhor ser igual o content que tem text e html",
             "image": {
                 "alt": "Alt text da imagem"
             },
@@ -21,24 +18,19 @@
                 "1",
                 "2"
             ],
-            "_categories": "Ver como vai fazer pq na automarticles so aceita uma categoria e no wordpress aceita um monte ai fica dificil sincronizar os dois",
             "date": 1699551233
         }
     ],
     "categories": [
         {
             "id": "1",
-            "_id": "ID da categoria automarticles",
             "name": "Nome da categoria",
-            "externalId": "1",
-            "_externalId": "Esse ID é da categoria do blog da pessoa"
+            "externalId": "1"
         },
         {
             "id": "2",
-            "_id": "ID da categoria automarticles",
             "name": "Nome da categoria",
-            "externalId": "2",
-            "_externalId": "Esse ID é da categoria do blog da pessoa"
+            "externalId": "2"
         }
     ]
 }
