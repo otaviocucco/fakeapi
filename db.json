@@ -23,11 +23,11 @@
             "date": 1699551233
         }
     ],
-    "posts/create": {
+    "postscreate": {
         "id": "2",
         "_id": "retornar id do post criado na automarticles"
     },
-    "posts/update": {
+    "postsupdate": {
         "id": "2",
         "_id": "retornar id do post criado na automarticles"
     }
